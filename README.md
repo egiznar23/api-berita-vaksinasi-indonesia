@@ -1,12 +1,12 @@
-# API Berita Indonesia
+# API Berita Vaksin Indonesia
 
 ## Deskripsi
 
-API Berita Indonesia adalah API yang menampilkan berita Indonesia dari CNN, CNBC, Tribun, OkeZone dll. Untuk datanya sendiri berasal dari RSS masing-masing situs kemudian diubah ke tipe JSON Rest API.
+API Berita Vaksin Indonesia adalah API yang menampilkan berita vaksin dan vaksinasi covid-19 dari CNN Indonesia, CNBC Indonesia, Sindonews, Tribunnews dll. Untuk datanya sendiri berasal dari RSS masing-masing situs kemudian diubah ke tipe JSON Rest API.
 
 ## Demo
 
-[https://api-berita-indonesia.vercel.app/](https://api-berita-indonesia.vercel.app/)
+[https://api-berita-vaksin-indonesia.herokuapp.com/](https://api-berita-vaksin-indonesia.herokuapp.com/)
 
 ## Daftar Route
 
@@ -37,6 +37,6 @@ API Berita Indonesia adalah API yang menampilkan berita Indonesia dari CNN, CNBC
 
 ## Instalasi
 
-1. Clone: `git clone https://github.com/renomureza/api-berita-indonesia.git`
+1. Clone: `git clone https://github.com/egiznar23/api-berita-vaksin-indonesia.git`
 2. Install dependecies: `npm i`
 3. Run server: `npm start`, or run dev server: `npm run dev`

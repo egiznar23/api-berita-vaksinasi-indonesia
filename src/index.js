@@ -18,6 +18,10 @@ endpoints.forEach((endpoint) => {
 
     try {
       const response = await feedid[endpoint.primary][category]();
+      
+      response.data.posts = selection(response.data.posts);
+      response.data.totalResult = response.data.posts.length;
+      
       return res.send(response);
     } catch (error) {
       return res
@@ -29,8 +33,8 @@ endpoints.forEach((endpoint) => {
 
 app.get('/', (req, res) => {
   return res.send({
-    maintainer: 'R.M Reza',
-    github: 'https://github.com/renomureza/api-berita-indonesia',
+    about: 'RSS Feed REST API Berita Vaksin Indonesia JSON',
+    github: 'https://github.com/egiznar23/api-berita-vaksin-indonesia',
     endpoints: endpointsOverview,
   });
 });
@@ -44,3 +48,14 @@ app.all('*', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+// function selection news
+const selection = function(posts) {
+        for(let i = 0; i < posts.length; i++) {
+        const title = posts[i].title.toLowerCase(); // change uppercase to lowercase                                   
+        if (!title.includes("vaksin")) {
+          delete posts[i];
+        } 
+      }
+    return posts.filter(function(x) { return x !== null }); // remove value null
+}

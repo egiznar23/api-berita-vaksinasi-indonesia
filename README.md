@@ -37,6 +37,6 @@ API Berita Vaksinasi Indonesia adalah API yang menampilkan berita vaksinasi covi
 
 ## Instalasi
 
-1. Clone: `git clone https://github.com/egiznar23/api-berita-vaksin-indonesia.git`
+1. Clone: `git clone https://github.com/egiznar23/api-berita-vaksinasi-indonesia.git`
 2. Install dependecies: `npm i`
 3. Run server: `npm start`, or run dev server: `npm run dev`

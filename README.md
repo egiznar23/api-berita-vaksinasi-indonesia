@@ -1,12 +1,12 @@
-# API Berita Vaksin Indonesia
+# API Berita Vaksinasi Indonesia
 
 ## Deskripsi
 
-API Berita Vaksin Indonesia adalah API yang menampilkan berita vaksin dan vaksinasi covid-19 dari CNN Indonesia, CNBC Indonesia, Sindonews, Tribunnews dll. Untuk datanya sendiri berasal dari RSS masing-masing situs kemudian diubah ke tipe JSON Rest API.
+API Berita Vaksinasi Indonesia adalah API yang menampilkan berita vaksinasi covid-19 dari CNN Indonesia, CNBC Indonesia, Sindonews, Tribunnews dll. Untuk datanya sendiri berasal dari RSS masing-masing situs kemudian diubah ke tipe JSON Rest API.
 
 ## Demo
 
-[https://api-berita-vaksin-indonesia.herokuapp.com/](https://api-berita-vaksin-indonesia.herokuapp.com/)
+[https://api-berita-vaksinasi-indonesia.herokuapp.com/](https://api-berita-vaksinasi-indonesia.herokuapp.com/)
 
 ## Daftar Route
 
